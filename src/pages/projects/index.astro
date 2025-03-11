@@ -27,7 +27,7 @@ const data = getData();
                 <div
                   data-aos="fade-up"
                   data-aos-anchor-placement="center-bottom"
-                  class="flex lg:flex-row flex-col text-center lg:text-start items-center gap-8"
+                  class="flex lg:flex-row flex-col text-center lg:text-start items-start gap-8"
                 >
                   <Image
                     class:list={"rounded-xl w-96"}
@@ -35,14 +35,14 @@ const data = getData();
                     alt={item.name}
                     transition:name={item.name}
                   />
-                  <div class="flex flex-col gap-3">
+                  <div class="flex flex-col gap-3 my-8 px-4">
                     <div class="">
                       <h1 class="sm:text-5xl text-3xl font-bold text-primary ">
                         {item.name}
                       </h1>
                       <p class="text-gray-400 py-1">{item.description}</p>
                     </div>
-                    <div class="flex gap-3 justify-center lg:justify-start flex-wrap">
+                    {/* <div class="flex gap-3 justify-center lg:justify-start flex-wrap">
                       {item.tech.map((item) => {
                         return (
                           <span class="px-2 text-xs font-semibold py-1 rounded-md text-primary bg-primary bg-opacity-10">
@@ -50,8 +50,8 @@ const data = getData();
                           </span>
                         );
                       })}
-                    </div>
-                    <div class="flex gap-2 justify-center lg:justify-start items-center">
+                    </div> */}
+                    {/* <div class="flex gap-2 justify-center lg:justify-start items-center">
                       🔗
                       <a
                         class="flex items-center gap-2 rounded-md font-bold px-3 py-2 bg-primary bg-opacity-10 text-primary"
@@ -93,7 +93,7 @@ const data = getData();
                         </svg>
                         Live Preview
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <hr class="opacity-10 mt-8 mb-8" />

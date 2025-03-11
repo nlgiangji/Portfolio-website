@@ -6,19 +6,30 @@ import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
 import robotsTxt from "astro-robots-txt";
-import vercel from "@astrojs/vercel";
 
 import playformCompress from "@playform/compress";
+
+import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://www.rohitk06.site",
-  // output: "server",
-  // adapter: vercel(),
   prefetch: true,
   markdown: {
     ...markdownConfig,
   },
+
+  // output: "server",
+  // adapter: vercel({
+  //   webAnalytics: {
+  //     enabled: true,
+  //   },
+  //   speedInsights: {
+  //     enabled: true,
+  //   },
+  //   imageService: true,
+  //   nodeVersion: "18.x",
+  // }),
   integrations: [
     tailwind({
       config: {
@@ -44,15 +55,7 @@ export default defineConfig({
     }),
     playformCompress(),
   ],
+
   output: "server",
-  adapter: vercel({
-    webAnalytics: {
-      enabled: true,
-    },
-    speedInsights: {
-      enabled: true,
-    },
-    imageService: true,
-    nodeVersion: "18.x",
-  }),
+  adapter: vercel(),
 });

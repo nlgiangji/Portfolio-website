@@ -8,7 +8,7 @@ import partytown from "@astrojs/partytown";
 import robotsTxt from "astro-robots-txt";
 
 import playformCompress from "@playform/compress";
-import vercel from "@astrojs/vercel";
+import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
@@ -43,13 +43,14 @@ export default defineConfig({
     playformCompress(),
   ],
   output: "server",
-  adapter: vercel({
-    webAnalytics: {
-      enabled: true
-    },
-    speedInsights: {
-      enabled: true
-    },
-    imageService: true
-  })
+  adapter: vercel(),
+  // adapter: vercel({
+  //   webAnalytics: {
+  //     enabled: true
+  //   },
+  //   speedInsights: {
+  //     enabled: true
+  //   },
+  //   imageService: true
+  // })
 });

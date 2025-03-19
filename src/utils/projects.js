@@ -1,4 +1,4 @@
-import Subscription from "../assets/images/Subscription.png";
+import Subscription from "../assets/images/ssubscription.png";
 import LuckyWheel from "../assets/images/lucky-wheel.png";
 import MyJourney from "../assets/images/my-journey.png";
 import BePaylater from "../assets/images/be-paylater.png";

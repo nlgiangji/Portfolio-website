@@ -1,13 +1,13 @@
-import docAid from "../assets/images/docAid.webp";
-import LifeInsureEase from "../assets/images/lifeinsureease.webp";
 import Subscription from "../assets/images/subscription.png"
 import LuckyWheel from "../assets/images/lucky-wheel.png"
+import MyJourney from "../assets/images/lucky-wheel.png";
+import BePaylater from "../assets/images/lucky-wheel.png";
+
 const data = [
   {
     name: "Lucky Wheel",
     type: "Mobile App",
     url: "https://marble-haircut-483.notion.site/Lucky-Wheel-19dbe9e35dae814ea9b0f32124a60e06?pvs=4",
-    github: "https://github.com/DevRohit06/cart-system-sveltekit",
     image: LuckyWheel,
     slug: "lucky-wheel",
     description: "Lucky Wheel is a Be game campaign where users can spin and win exciting rewards from Be and its partners.",
@@ -17,8 +17,7 @@ const data = [
     name: "bePaylater",
     type: "Mobile App",
     url: "https://marble-haircut-483.notion.site/bePaylater-19dbe9e35dae8120ac24e0029e68f1df",
-    github: "https://github.com/DevRohit06/insurance-website",
-    image: LifeInsureEase,
+    image: BePaylater,
     slug: "be-paylater",
     description: "This is an Insurance website made using Astro, Reactjs and Tailwind css. ",
     tech: ["UI/UX Design", "Illustration"],
@@ -27,7 +26,6 @@ const data = [
     name: "Subscription Plan",
     type: "Mobile App",
     url: "https://marble-haircut-483.notion.site/Subscription-Plan-1a4be9e35dae807a9ca6d69bd1fe65b2",
-    github: "https://github.com/DevRohit06/Portfolio-website",
     image: Subscription,
     slug: "subscription-plan",
     description: "The Subscription Plan offers various packages with diverse promotions to suit users' needs",
@@ -37,8 +35,7 @@ const data = [
     name: "My Journey at be",
     type: "Mobile App",
     url: "https://www.notion.so/My-Journey-at-be-19dbe9e35dae813197e7f48876aa18ff",
-    github: "https://github.com/DevRohit06/DocAid",
-    image: docAid,
+    image: MyJourney,
     slug: "my-journey-at-be",
     description: "My Journey at Be  showcases my experiences and milestones with Be through personalized insights and outcomes.",
     tech: ["Product Design"],

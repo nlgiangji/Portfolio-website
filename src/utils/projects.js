@@ -1,55 +1,49 @@
-import ras from "../assets/images/ras.webp";
-import joke from "../assets/images/joke.webp";
-import lofi from "../assets/images/lofi.webp";
-import blog from "../assets/images/blog.webp";
 import docAid from "../assets/images/docAid.webp";
 import LifeInsureEase from "../assets/images/lifeinsureease.webp";
-import Portfolio from "../assets/images/portfolio.webp"
-import CartManagementSystem from "../assets/images/cart-management-system.webp"
+import Subscription from "../assets/images/subscription.png"
+import LuckyWheel from "../assets/images/lucky-wheel.png"
 const data = [
-    {
-        name: "Lucky Wheel",
-        type: "Mobile App",
-        url: "https://cart-system-sveltekit.vercel.app/",
-        github: "https://github.com/DevRohit06/cart-system-sveltekit",
-        image: CartManagementSystem,
-        slug: "cart-management-system",
-        description: "This is a Cart Management System made using SvelteKit and Tailwind css with the help of FakeStoreAPI. it has two versions one with sveltekit and another with NextJS.",
-        tech: ['HTML', 'Javascript', 'Css', 'Tailwind css', 'SvelteKit', 'NextJS']
-        
-    },
-    {
-        name: "bePaylater",
-        type: "Mobile App",
-        url: "https://lifeinsureease.in/",
-        github: "https://github.com/DevRohit06/insurance-website",
-        image: LifeInsureEase,
-        slug: "lifeinsureease",
-        description: "This is an Insurance website made using Astro, Reactjs and Tailwind css. ",
-        tech: ['HTML', 'Javascript', 'Css', 'Tailwind css', 'Astro', 'Reactjs']
-
-    },
-    {
-        name: "Subscription Plan",
-        type: "Mobile App",
-        url: "https://rohitk06.site/",
-        github: "https://github.com/DevRohit06/Portfolio-website",
-        image: Portfolio,
-        slug: "portfolio",
-        description: "This is my Portfolio website made using Astro, Reactjs and Tailwind css. ",
-        tech: ['HTML', 'Javascript', 'Css', 'Tailwind css', 'Astro', 'Reactjs']
-    },
-    {
-        name: "DocAid",
-        type: "Website",
-        url: "https://doc-aid.vercel.app/",
-        github: 'https://github.com/DevRohit06/DocAid',
-        image: docAid,
-        slug: "docaid",
-        description: "Website template for Health related businesses",
-        tech: ['HTML', 'Javascript', 'CSS', 'Tailwind css', 'ReactJS']
-    },
-]
+  {
+    name: "Lucky Wheel",
+    type: "Mobile App",
+    url: "https://marble-haircut-483.notion.site/Lucky-Wheel-19dbe9e35dae814ea9b0f32124a60e06?pvs=4",
+    github: "https://github.com/DevRohit06/cart-system-sveltekit",
+    image: LuckyWheel,
+    slug: "lucky-wheel",
+    description: "Lucky Wheel is a Be game campaign where users can spin and win exciting rewards from Be and its partners.",
+    tech: ["UI/UX Design", "Graphic Design", "Illustration"],
+  },
+  {
+    name: "bePaylater",
+    type: "Mobile App",
+    url: "https://marble-haircut-483.notion.site/bePaylater-19dbe9e35dae8120ac24e0029e68f1df",
+    github: "https://github.com/DevRohit06/insurance-website",
+    image: LifeInsureEase,
+    slug: "be-paylater",
+    description: "This is an Insurance website made using Astro, Reactjs and Tailwind css. ",
+    tech: ["UI/UX Design", "Illustration"],
+  },
+  {
+    name: "Subscription Plan",
+    type: "Mobile App",
+    url: "https://marble-haircut-483.notion.site/Subscription-Plan-1a4be9e35dae807a9ca6d69bd1fe65b2",
+    github: "https://github.com/DevRohit06/Portfolio-website",
+    image: Subscription,
+    slug: "subscription-plan",
+    description: "The Subscription Plan offers various packages with diverse promotions to suit users' needs",
+    tech: ["UI/UX Design"],
+  },
+  {
+    name: "My Journey at be",
+    type: "Mobile App",
+    url: "https://www.notion.so/My-Journey-at-be-19dbe9e35dae813197e7f48876aa18ff",
+    github: "https://github.com/DevRohit06/DocAid",
+    image: docAid,
+    slug: "my-journey-at-be",
+    description: "My Journey at Be  showcases my experiences and milestones with Be through personalized insights and outcomes.",
+    tech: ["Product Design"],
+  },
+];
 
 export function getData(){
     return data;

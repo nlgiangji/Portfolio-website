@@ -1,5 +1,7 @@
 ---
-
+import { Image } from "astro:assets";
+import BeGroup from "../assets/images/be.png";
+import Freelance from "../assets/images/freelance.png";
 ---
 
 <section class="w-5/6 mx-auto mt-48">
@@ -32,22 +34,47 @@
               data-aos="fade-up"
               class="flex flex-col border-primary/10 border-[1px] bg-primary/10 py-2 w-72 bg-opacity-10 px-8"
             >
-              <h1 class="text-lg">Product Designer</h1>
-              <p>
-                <a class="text-[#FFD200]" href="https://be.com.vn/"
-                  >Be Group</a
-                >
+              <a class="text-[#FFD200]" href="https://be.com.vn/">
+                <div class="flex flex-row items-center justify-start">
+                  <Image
+                    class="text-center stroke-slate-50 stroke-2 w-6 h-6"
+                    src={BeGroup}
+                    alt="Be Group"
+                    loading="eager"
+                  />
+                  <h1 class="text-lg text-[#FFD200] ml-1.5">
+                    Be Group</a>
+                  </h1>
+                </div>
+              </a>
+              <p class="text-[15px] text-white">
+                Product Designer
               </p>
-              <p class="text-[15px] text-gray-400">10/2023 - Present</p>
+              <p class="text-[13px] font-medium text-gray-400">10/2023 - Present</p>
             </div>
           </div>
-          <div data-aos="fade-up" class="flex gap-2">
-            <div class="flex flex-col border-primary/10 border-[1px] bg-primary py-2 w-72 bg-opacity-10 px-8">
-              <h1 class="text-lg">Web Developer</h1>
-              <p class="text-[15px] text-gray-400">Freelancer</p>
-              <p>
-                At <a class="text-indigo-300" href="/">Local Area</a>
+          <div
+              data-aos="fade-up"
+              class="flex flex-col border-primary/10 border-[1px] bg-primary/10 py-2 w-72 bg-opacity-10 px-8"
+            >
+              <a class="text-[#FFD200]" href="#">
+                <div class="flex flex-row items-center justify-start">
+                  <Image
+                    class="text-center stroke-slate-50 stroke-2 w-6 h-6"
+                    style="border-radius: 4px"
+                    src={Freelance}
+                    alt="Be Group"
+                    loading="eager"
+                  />
+                  <h1 class="text-lg text-[#FFD200] ml-1.5">
+                    UXSG</a>
+                  </h1>
+                </div>
+              </a>
+              <p class="text-[15px] text-white">
+                UI/UX Designer
               </p>
+              <p class="text-[13px] font-medium text-gray-400">7/2022 - 4/2023</p>
             </div>
           </div>
         </div>

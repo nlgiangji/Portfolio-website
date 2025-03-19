@@ -1,7 +1,7 @@
-import Subscription from "../assets/images/subscription.png"
-import LuckyWheel from "../assets/images/lucky-wheel.png"
-import MyJourney from "../assets/images/lucky-wheel.png";
-import BePaylater from "../assets/images/lucky-wheel.png";
+import Subscription from "../assets/images/Subscription.png";
+import LuckyWheel from "../assets/images/lucky-wheel.png";
+import MyJourney from "../assets/images/my-journey.png";
+import BePaylater from "../assets/images/be-paylater.png";
 
 const data = [
   {
@@ -19,7 +19,7 @@ const data = [
     url: "https://marble-haircut-483.notion.site/bePaylater-19dbe9e35dae8120ac24e0029e68f1df",
     image: BePaylater,
     slug: "be-paylater",
-    description: "This is an Insurance website made using Astro, Reactjs and Tailwind css. ",
+    description: "BePayLater allows users to enjoy Be services first and pay later with flexible payment options.",
     tech: ["UI/UX Design", "Illustration"],
   },
   {
@@ -28,7 +28,7 @@ const data = [
     url: "https://marble-haircut-483.notion.site/Subscription-Plan-1a4be9e35dae807a9ca6d69bd1fe65b2",
     image: Subscription,
     slug: "subscription-plan",
-    description: "The Subscription Plan offers various packages with diverse promotions to suit users' needs",
+    description: "The Subscription Plan offers various packages with diverse promotions to suit users' needs.",
     tech: ["UI/UX Design"],
   },
   {
@@ -37,11 +37,11 @@ const data = [
     url: "https://www.notion.so/My-Journey-at-be-19dbe9e35dae813197e7f48876aa18ff",
     image: MyJourney,
     slug: "my-journey-at-be",
-    description: "My Journey at Be  showcases my experiences and milestones with Be through personalized insights and outcomes.",
+    description: "My Journey at Be showcases my experiences and milestones with Be through personalized insights and outcomes.",
     tech: ["Product Design"],
   },
 ];
 
-export function getData(){
-    return data;
+export function getData() {
+  return data;
 }

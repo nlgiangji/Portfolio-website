@@ -12,7 +12,7 @@ import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://www.rohitk06.site",
+  site: "https://nlgiangji.vercel.app/",
   prefetch: true,
   markdown: {
     ...markdownConfig,
@@ -38,7 +38,7 @@ export default defineConfig({
       },
     }),
     robotsTxt({
-      sitemap: ["https://www.rohitk06.site/sitemap-0.xml", "http://www.rohitk06.site/sitemap-index.xml"],
+      sitemap: ["https://nlgiangji.vercel.app//sitemap-0.xml", "https://nlgiangji.vercel.app//sitemap-index.xml"],
     }),
     playformCompress(),
   ],
